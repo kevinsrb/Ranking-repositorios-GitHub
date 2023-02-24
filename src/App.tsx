@@ -68,7 +68,7 @@ function App() {
               onChange={handleInputChange}
             />
           </div>
-          <button type="submit">Buscar</button>
+          <button className="btn btn-primary float-end" type="submit">Buscar</button>
         </form>
         {isLoading && <div>Loading...</div>}
         {error && (
