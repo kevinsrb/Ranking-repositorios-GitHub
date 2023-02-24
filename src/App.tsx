@@ -42,6 +42,7 @@ function App() {
   return (
     <>
       <div className="container">
+        <h1 className="mt-3">Ranking de repositorios de GitHub</h1>
         <form
           onSubmit={search}
         >
